@@ -18,9 +18,9 @@ Material-ui 4.11.4
 
 ### Executing Program
 
-Inside the `client/` directory run the following:
+Inside the project repo run the following:
 
-- npm -i
+- npm i
 - npm start
 
 This will run the application on localhost
