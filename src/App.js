@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import React from 'react'
+import Editor from './components/Editor/Editor.js'
+import CountButton from './components/WordCount/CountButton'
 
 function App() {
+  const [text, setText] = React.useState('')
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h2>MinimalEditor</h2>
+      <CountButton text={text}/>
+      <div style={{"height": "20px"}}></div>
+      <Editor setText={setText}/>
     </div>
   );
 }
