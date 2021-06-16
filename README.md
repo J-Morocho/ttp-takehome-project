@@ -11,10 +11,11 @@ document is given by clicking the word count button.
 
 ### Dependencies
 
-CKEditor5 build classic 28.0.0
-CKeditor5-react 3.0.2
-React 17.0.2
-Material-ui 4.11.4
+CKEditor5 build classic 28.0.0  
+CKeditor5-react 3.0.2  
+React 17.0.2  
+Material-ui 4.11.4  
+
 
 ### Executing Program
 
